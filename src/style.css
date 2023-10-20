@@ -49,7 +49,6 @@ hr {
 }
 
 .line {
-  border-bottom: 1px solid black;
 }
 
 .col-3 {
@@ -65,9 +64,15 @@ hr {
   color: white;
 }
 
-#contact-email,
+#contact-email {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+}
+
 #contact-github {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 13px;
+  margin-top: 50px;
 }
