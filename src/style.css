@@ -7,17 +7,24 @@ h1 {
   font-size: 100px;
   line-height: 83%;
   letter-spacing: -1.5%;
-  font-size: 180px;
+  font-size: 185px;
+  margin-top: 90px;
+  margin-left: 70px;
 }
 
 h5 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+  font-size: 29px;
+  padding-bottom: 20px;
+  line-height: 120%;
 }
 
 p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  font-size: 19px;
+  line-height: 120%;
 }
 
 hr {
@@ -25,10 +32,32 @@ hr {
   border: none;
   border-top: 2px solid;
   opacity: 100;
+  margin-left: 50px;
+  padding-bottom: 10px;
+}
+
+.container {
+  margin-right: 10px;
+}
+
+.contact {
+  margin-left: 50px;
+}
+
+.contact-info {
+  margin-left: 50px;
 }
 
 .line {
   border-bottom: 1px solid black;
+}
+
+.col-3 {
+  margin-top: 90px;
+}
+
+.col-2 {
+  margin-top: 90px;
 }
 
 #email {
