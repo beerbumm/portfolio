@@ -20,6 +20,13 @@ p {
   font-weight: 400;
 }
 
+hr {
+  height: 0px;
+  border: none;
+  border-top: 2px solid;
+  opacity: 100;
+}
+
 .line {
   border-bottom: 1px solid black;
 }
