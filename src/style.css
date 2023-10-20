@@ -4,5 +4,23 @@ body {
 
 h1 {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 200px;
+  font-size: 100px;
+  line-height: 83%;
+  letter-spacing: -1.5%;
+  font-size: 180px;
+}
+
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+#email {
+  text-decoration: none;
+  color: white;
 }
