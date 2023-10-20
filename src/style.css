@@ -20,7 +20,18 @@ p {
   font-weight: 400;
 }
 
+.line {
+  border-bottom: 1px solid black;
+}
+
 #email {
   text-decoration: none;
   color: white;
+}
+
+#contact-email,
+#contact-github {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
 }
