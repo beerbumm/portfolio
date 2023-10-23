@@ -7,7 +7,7 @@ h1 {
   line-height: 83%;
   letter-spacing: -1.5%;
   font-size: 180px;
-  margin-top: 90px;
+  margin-top: 70px;
   margin-left: 100px;
 }
 
@@ -45,6 +45,17 @@ nav li {
   list-style: none;
 }
 
+.icon-bar a {
+  display: block;
+  padding: 5px;
+  margin-left: 12px;
+  font-size: 13px;
+}
+
+#home-page {
+  margin-top: 20px;
+}
+
 .contact {
   margin-left: 50px;
 }
@@ -54,16 +65,16 @@ nav li {
 }
 
 .col-lg-3 {
-  margin-top: 90px;
+  margin-top: 70px;
 }
 
 .col-lg-2 {
-  margin-top: 90px;
+  margin-top: 70px;
   margin-left: 40px;
 }
 
 #grid-container {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .row {
@@ -123,11 +134,11 @@ nav li {
 }
 
 #get-in-touch {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 #connect {
-  margin-top: 356px;
+  margin-top: 310px;
   margin-right: -50px;
 }
 
