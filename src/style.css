@@ -4,7 +4,6 @@ body {
 
 h1 {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 100px;
   line-height: 83%;
   letter-spacing: -1.5%;
   font-size: 180px;
@@ -73,4 +72,22 @@ hr {
 
 #about-me {
   margin-left: 9px;
+}
+
+@media (max-width: 768px) {
+  .col-md-2 {
+    display: none;
+  }
+  .col-md-3 {
+    width: 70%;
+    text-align: left;
+  }
+  .col-md-6 {
+    display: flex;
+    flex-direction: column;
+  }
+  h1 {
+    margin-left: 0px;
+    font-size: 120px;
+  }
 }
