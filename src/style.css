@@ -20,6 +20,11 @@ h5 {
   margin-left: 9px;
 }
 
+h6 {
+  font-family: "Bebas Neue", sans-serif;
+  margin: 20px 0 0 20px;
+}
+
 p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -34,6 +39,10 @@ hr {
   opacity: 100;
   margin-left: 50px;
   padding-bottom: 10px;
+}
+
+nav li {
+  list-style: none;
 }
 
 .contact {
@@ -85,16 +94,20 @@ hr {
   color: white;
 }
 
-#contact-email {
+#contact-email,
+#contact-github {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 13px;
 }
 
-#contact-github {
+#connect-email,
+#connect-github,
+#connect-phone {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 13px;
+  margin-left: 250px;
 }
 
 #about-me {
@@ -103,6 +116,19 @@ hr {
 
 #work-body {
   background: #e7e7df;
+}
+
+#contact-body {
+  background: #e7e7df;
+}
+
+#get-in-touch {
+  margin-top: 100px;
+}
+
+#connect {
+  margin-top: 356px;
+  margin-right: -50px;
 }
 
 @media (max-width: 768px) {
