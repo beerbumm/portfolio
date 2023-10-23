@@ -54,7 +54,7 @@ hr {
 }
 
 #grid-container {
-  margin-top: 90px;
+  margin-top: 80px;
 }
 
 .row {
@@ -120,5 +120,19 @@ hr {
   h1 {
     margin-left: 0px;
     font-size: 120px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
   }
 }
