@@ -182,8 +182,20 @@ nav li {
     order: 1;
   }
   h1 {
-    font-size: 115px;
+    font-size: 100px;
     padding-bottom: 20px;
+  }
+
+  h5 {
+    font-size: 22px;
+  }
+
+  #about-me {
+    font-size: 16px;
+  }
+
+  #home-page-container {
+    margin-left: -30px;
   }
 }
 
