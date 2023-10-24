@@ -173,16 +173,17 @@ nav li {
   }
   .col-lg-3 {
     width: 70%;
-    order: 2; /* set order to 2 for .col-lg-3 */
+    order: 2;
+    margin-left: 75px;
   }
   .col-lg-6 {
     display: flex;
     flex-direction: column;
-    order: 1; /* set order to 1 for .col-lg-6 to display above .col-lg-3 */
+    order: 1;
   }
   h1 {
-    margin-left: 0px;
-    font-size: 120px;
+    font-size: 115px;
+    padding-bottom: 20px;
   }
 }
 
