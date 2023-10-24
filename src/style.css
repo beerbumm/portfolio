@@ -7,14 +7,14 @@ h1 {
   line-height: 83%;
   letter-spacing: -1.5%;
   font-size: 180px;
-  margin-top: 70px;
-  margin-left: 100px;
+
+  margin-left: 80px;
 }
 
 h5 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 29px;
+  font-size: 28px;
   padding-bottom: 20px;
   line-height: 120%;
   margin-left: 9px;
@@ -28,7 +28,7 @@ h6 {
 p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 19px;
+  font-size: 18px;
   line-height: 120%;
 }
 
@@ -37,7 +37,7 @@ hr {
   border: none;
   border-top: 2px solid;
   opacity: 100;
-  margin-left: 50px;
+  margin-left: 40px;
   padding-bottom: 10px;
 }
 
@@ -48,29 +48,48 @@ nav li {
 .icon-bar a {
   display: block;
   padding: 5px;
-  margin-left: 12px;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 #home-page {
+  margin-left: 14px;
+}
+
+#work-page {
+  margin-left: 16px;
+}
+
+#nav-bar-line {
+  width: 18px;
+  margin-left: 19px;
   margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+#contact-page {
+  margin-left: 15px;
+}
+
+#line {
+  padding-left: 3px;
+  padding-right: 5px;
 }
 
 .contact {
-  margin-left: 50px;
+  margin-left: 40px;
+  margin-top: 5px;
 }
 
 .contact-info {
-  margin-left: 50px;
+  margin-top: 5px;
+  margin-left: 40px;
 }
-
 .col-lg-3 {
-  margin-top: 70px;
+  margin-left: 10px;
 }
 
 .col-lg-2 {
-  margin-top: 70px;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 #grid-container {
@@ -98,6 +117,11 @@ nav li {
   content: "";
   display: table;
   clear: both;
+}
+
+#home-page-container {
+  margin-right: 20px;
+  margin-top: -30px;
 }
 
 #email {
