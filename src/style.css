@@ -160,6 +160,17 @@ nav li {
   margin-right: -50px;
 }
 
+#github-link {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  padding-top: 43px;
+  font-size: 10px;
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .col-lg-2 {
     display: none;
