@@ -55,6 +55,11 @@ nav li {
   margin-left: 14px;
 }
 
+#resume {
+  text-decoration: none;
+  color: black;
+}
+
 #work-page {
   margin-left: 16px;
 }
@@ -131,7 +136,8 @@ nav li {
 }
 
 #contact-email,
-#contact-github {
+#contact-github,
+#resume {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 13px;
